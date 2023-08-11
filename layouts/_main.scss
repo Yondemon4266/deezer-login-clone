@@ -1,0 +1,105 @@
+main {
+    .main-container {
+        width: $main-width;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        gap: $gap*4;
+        @media screen and (max-width:768px) {
+            width: 343px;
+        }
+        @media screen and (max-width:400px) {
+            width: 275px;
+        }
+        .button-offre-solde {
+            position: relative;
+            margin-bottom: -50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            @media screen and (max-width:768px) {
+                font-size: 12px;
+            }
+            
+            .solde {
+                position: absolute;
+                right: 10px;
+                bottom: 50%;
+                transform: translateY(50%);
+                border-radius: 500px;
+                padding: 8px 10px;
+                
+            }
+            .bleu {
+                background: linear-gradient(69.06deg,#b84fdd -26.76%,#4965f4 44.6%,#2efb74 132.54%);
+            }
+            .orange {
+                background: linear-gradient(53.13deg,#dc4c11 10.71%,#feab2e);
+            }
+            
+        }
+        .offre {
+            display: flex;
+            flex-direction: column;
+            gap: $gap;
+            border-radius: 20px;
+            padding: 24px 80px 16px;
+            @media screen and (max-width:768px) {
+                max-width: 343px;
+                padding: 16px 16px 8px;
+                margin: 0 auto;
+            }
+        }
+        .gratuit {
+            margin-top: 40px;
+            background: linear-gradient(57.8deg,#6b42b4 9.75%,#943aab 95.44%);
+            @media screen and (max-width:500px) {
+                margin-top: 20px;
+            }
+        }
+        .premium {
+            background: linear-gradient(69.06deg,#b84fdd -26.76%,#4965f4 44.6%,#2efb74 132.54%);
+        }
+        .premium-annuel {
+            background: linear-gradient(69.06deg,#b84fdd -26.76%,#4965f4 44.6%,#2efb74 132.54%);
+        }
+        .etudiant {
+            background: linear-gradient(69.06deg,#b84fdd -26.76%,#4965f4 44.6%,#2efb74 132.54%);
+        }
+        .famille {
+            background: linear-gradient(53.13deg,#dc4c11 10.71%,#feab2e);
+        }
+        .famille-annuel {
+            background: linear-gradient(53.13deg,#dc4c11 10.71%,#feab2e);
+        }
+        a, a:visited {
+            text-decoration: underline;
+            color: #d1d1d6;
+        }
+        #a-header2 {
+            display: flex;
+            flex-direction: column;
+            text-decoration: none;
+            gap: 15px;
+            width: 100%;
+            margin: 0 auto;
+            height: 170px;
+            background: linear-gradient(180deg,#202122,#3a3b47 55.56%);
+            font-size: 16px;
+            color: white;
+            .icons-partenaires {
+                display: flex;
+                gap: 30px;
+                margin-top: 0;
+                img {
+                    width: 24px;
+                    height: 24px;
+                    
+                }
+            }
+            #btnpartner {
+                text-transform: uppercase;
+            }
+        }
+    }
+}

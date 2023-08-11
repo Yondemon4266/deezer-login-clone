@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deezer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <a href="" class="a-header" id="a-header1">
+            Activer mon offre partenaire
+            <div class="icons-partenaires">
+                <img src="./img/orangelogo.png" alt="logo-orange" width="18" height="18">
+                <img src="./img/sfrlogo.png" alt="logo-sfr" width="18" height="18">
+                <img src="./img/bouygueslogo.svg" alt="logo-bouygues" width="18" height="18">
+            </div>
+        </a>
+        <img src="./img/logo.png" alt="logo-deezer" width="117" height="24" id="logo">
+        <button id="sign-in">connexion</button>
+        <h1>The Power of Music</h1>
+    </header>
+    <main>
+        <div class="main-container">
+            <div class="offre gratuit">
+                <h2>deezer <strong>Gratuit</strong></h2>
+                <p>Musique, podcasts, radio et recommandations personnalisées.</p>
+                <button class="button-offre" id="sign-up">s'inscrire gratuitement</button>
+                <p>Aucun paiement nécessaire</p>
+                <a href="">En savoir plus</a>
+            </div>
+            <div class="offre premium">
+                <h2>deezer <strong>Premium</strong></h2>
+                <p>Écoute les titres de ton choix, sans aucune publicité, et télécharge tes favoris pour les écouter
+                    hors connexion.</p>
+                <p>Aucun paiement nécessaire</p>
+                <button class="button-offre">Essayer gratuitement</button>
+                <h2>2 mois offerts</h2>
+                <p>puis 10,99 €/mois.</p>
+                <p>Sans engagement, résilie à tout moment.</p>
+                <a href="">En savoir plus</a>
+            </div>
+            <!-- invisibles sauf les buttons à partir d'ici -->
+            <button class="button-offre-solde bleu" id="btnPremiumAnnuel">1 an à prix réduit<div class="solde bleu ">-25%</div>
+            </button>
+            <div id="premiumAnnuel"></div>
+            <button class="button-offre-solde" id="btnEtudiant">Réduction étudiants<div class="solde bleu">-50%</div>
+            </button>
+            <div id="etudiant"></div>
+            
+            
+            <!-- jusqu'ici -->
+            <a href="" class="a-header" id="a-header2">
+                Offres partenaires
+                <div class="icons-partenaires">
+                    <img src="./img/orangelogo.png" alt="logo-orange" width="18" height="18">
+                    <img src="./img/sfrlogo.png" alt="logo-sfr" width="18" height="18">
+                    <img src="./img/bouygueslogo.svg" alt="logo-bouygues" width="18" height="18">
+                </div>
+                <button id="btnpartner">activer mon offre partenaire</button>
+            </a>
+            <div class="offre famille">
+                <h2>deezer <strong>Famille</strong></h2>
+                <p>La musique pour tous.</p>
+                <p>Profite de 6 comptes indépendants, chacun avec les avantages de Deezer Premium, le son Haute Fidélité
+                    inclus.</p>
+                <p>Écoute simultanée sur plusieurs appareils.</p>
+                <button class="button-offre">Essayer gratuitement</button>
+                <h2>2 mois offerts</h2>
+                <p>puis 17,99 €/mois.</p>
+                <p>Sans engagement, résilie à tout moment.</p>
+                <a href="">En savoir plus</a>
+            </div>
+            <!-- invisibles sauf les buttons à partir d'ici -->
+            <button class="button-offre-solde" id="btnFamilleAnnuel">1 an à prix réduit<div class="solde orange">-50%</div>
+                </button>
+            <div id="familleAnnuel"></div>
+            <!-- jusqu'ici -->
+        </div>
+    </main>
+
+    <script src="./index.js"></script>
+</body>
+
+</html>
